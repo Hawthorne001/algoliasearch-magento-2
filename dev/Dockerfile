@@ -1,4 +1,4 @@
-FROM php:7.0-apache
+FROM php:7.4.26-apache
 
 # packages configuration
 RUN echo 'mysql-server mysql-server/root_password password P4ssw0rd' | debconf-set-selections
